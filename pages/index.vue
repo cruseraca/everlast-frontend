@@ -1,11 +1,15 @@
 <template>
-  <Tutorial/>
+  <div>
+    <LandingPage />
+  </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
+import LandingPage from "~/components/LandingPage.vue";
 
 export default Vue.extend({
-  name: 'IndexPage'
-})
+  components: { LandingPage },
+  name: "IndexPage",
+});
 </script>
