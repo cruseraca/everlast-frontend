@@ -2,9 +2,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: false,
-  router: {
-    base: '/everlast-frontend/'
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'everlast-frontend',

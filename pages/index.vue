@@ -1,15 +1,15 @@
 <template>
   <div>
-    <LandingPage />
+    <Home />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import LandingPage from "~/components/LandingPage.vue";
+import Home from "~/pages/home.vue";
 
 export default Vue.extend({
-  components: { LandingPage },
+  components: { Home },
   name: "IndexPage",
 });
 </script>

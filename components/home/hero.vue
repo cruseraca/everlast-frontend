@@ -43,11 +43,10 @@
   </section>
 </template>
 
-<script lang="ts">
+<script>
 export default {
-    name: 'Hero',
-    data: {
-        showMenu: false,
-    }
-}
+  data: {
+    showMenu: false,
+  },
+};
 </script>

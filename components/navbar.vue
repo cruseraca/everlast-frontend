@@ -1,9 +1,9 @@
 <template>
   <div
-    class="sticky top-0 z-50 h-24 select-none border-b border-gray-200 md:overflow-visible"
+    class="sticky top-0 z-50 h-24 border-b border-gray-200 select-none md:overflow-visible bg-white "
   >
     <div
-      class="container sticky flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium lg:justify-center sm:px-4 md:px-2"
+      class="container sticky flex flex-wrap border-b border-gray-200 items-center justify-between h-24 mx-auto overflow-hidden font-medium lg:justify-center sm:px-4 md:px-2"
     >
       <div class="flex items-center justify-start w-1/4 h-full pr-4">
         <a href="#_" class="inline-block py-4 md:py-0">
@@ -15,7 +15,7 @@
         </a>
       </div>
       <div
-        class="flex top-0 left-0 items-start w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex"
+        class="flex top-0 left-0 items-start w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-white md:p-0 md:relative md:flex"
         v-bind:class="{ 'flex fixed': showMenu, hidden: !showMenu }"
       >
         <div

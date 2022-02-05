@@ -1,6 +1,7 @@
-<template lang="">
+<template>
     <div>
-        <Hero />
+        <HomeHero />
+        <HomeFeature />
     </div>
 </template>
 <script>
@@ -8,6 +9,6 @@ export default {
     
 }
 </script>
-<style lang="">
+<style>
     
 </style>
